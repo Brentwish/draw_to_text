@@ -1,0 +1,11 @@
+I want to create an intuitive drawing and note taking app. The app will interpret characters and convert them to text. Simple swipe actions will be used to start different events such as
+'insert_text' or 'insert_drawing' etc. There will be packages for different tools such as an algebra tool or boolean logic tool or calculus tool, where each tool contains a lexer and interpreter for
+that topic. The app would have an intuitive snap grid for writing text and integrating drawings into a "note taking" style.
+
+A basic drawing app: touch = draw
+I would start with the logic tool for development which means writing the lexer and parser in swift.
+A handwriting interpreter (probably a good one, possibly make your own gl)
+A class that interprets and handles user swipe commands.
+To Start, attempt to convert drawn characters to ascii.
+After, It would be cool to "learn" a handwriting and create a font out of it.
+
